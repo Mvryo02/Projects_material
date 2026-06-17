@@ -115,8 +115,4 @@ All projects are implemented in **Python** using **PyTorch** and Hugging Face ec
 These projects were developed during my Master’s in Artificial Intelligence.  
 Each project focuses on applying modern AI architectures to real-world inspired problems, with emphasis on experimentation, evaluation, and model design.
 
----
 
-## 📬 Contact
-
-Feel free to reach out if you'd like to discuss any of these projects or collaborate.
