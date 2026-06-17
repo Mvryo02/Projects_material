@@ -1,98 +1,122 @@
-#Machine Learning & AI Projects Portfolio
+# 🚀 Machine Learning & AI Projects Portfolio
 
-This repository contains a collection of machine learning and deep learning projects developed during my Master's in Artificial Intelligence. The projects span multiple domains, including Computer Vision, Natural Language Processing, Reinforcement Learning, and Spatio-Temporal Forecasting, with a focus on building end-to-end models and applying modern architectures.
+> A collection of deep learning projects across Computer Vision, NLP, Reinforcement Learning, and Spatio-Temporal Forecasting, focused on building end-to-end models using modern AI architectures.
 
-##🚀 Overview
+---
 
-The goal of this portfolio is to demonstrate practical experience in:
+## 🧠 Overview
 
--Deep learning model design and training (PyTorch)
--Transformer-based architectures (BERT, LLMs, Informer)
--Graph Neural Networks
--Computer Vision anomaly detection
--Reinforcement learning in continual settings
--NLP pipelines and text understanding tasks
--End-to-end experimentation and evaluation workflows
+This repository showcases my experience in designing, training, and evaluating machine learning models across multiple domains:
 
-##📁 Projects
+- Deep Learning (CNNs, Transformers, GNNs)
+- Natural Language Processing (BERT, LLaMA, UmBERTo)
+- Computer Vision (Anomaly Detection)
+- Reinforcement Learning (Continual Learning setups)
+- Spatio-Temporal Forecasting (Informer + Graph Neural Networks)
 
-###1. Computer Vision – Anomaly Detection in Jet Engine Blades
+All projects are implemented in **Python** using **PyTorch** and Hugging Face ecosystem.
 
-Developed an anomaly detection system for detecting defects in jet engine blades using deep learning-based reconstruction methods.
+---
 
-Approach: Autoencoder-based anomaly detection
-Goal: Identify structural defects from visual patterns
-Key aspects:
--Feature learning without explicit labels
--Reconstruction error used as anomaly score
-Tech stack: Python, PyTorch, CNN-based architectures
+## 📁 Projects
 
-###2. Continual Reinforcement Learning
+---
 
-Implemented a reinforcement learning framework designed to handle continual learning scenarios where the agent must adapt to changing environments without catastrophic forgetting.
+## 🛫 Computer Vision — Anomaly Detection (Jet Engine Blades)
 
-Approach: RL with continual adaptation strategies
-Focus: Stability-plasticity trade-off
-Key aspects:
--Sequential task learning
--Performance retention across tasks
-Tech stack: Python, PyTorch, RL libraries
+**Goal:** Detect defects in aircraft engine blades using image-based deep learning.
 
-###3. Spatio-Temporal Traffic Forecasting (METR-LA)
+- 🧩 Approach: Autoencoder-based anomaly detection
+- 🔍 Method: Reconstruction error as anomaly score
+- 🎯 Focus: Unsupervised feature learning from visual data
+- 🛠 Tech Stack: Python, PyTorch, CNNs
 
-Developed a hybrid deep learning model for traffic prediction using both temporal and spatial dependencies.
+---
 
-Approach:
-Informer for long-range time series forecasting
-Bayesian Graph Attention Network for spatial relationships and uncertainty modeling
-Dataset: METR-LA traffic dataset
-Key contributions:
--Joint modeling of spatial-temporal dependencies
--Uncertainty-aware predictions
-Tech stack: Python, PyTorch, Graph Neural Networks
+## 🔄 Continual Reinforcement Learning
 
-###4. NLP – Sentence Splitting Models
+**Goal:** Train RL agents in sequential environments while avoiding catastrophic forgetting.
 
-Built sentence splitting models using both encoder-based and generative approaches.
+- 🧩 Approach: Continual learning + reinforcement learning
+- 🎯 Focus: Stability–plasticity trade-off in dynamic tasks
+- 📊 Key idea: Preserve past knowledge while adapting to new tasks
+- 🛠 Tech Stack: Python, PyTorch, RL frameworks
 
-Models used:
-BERT, UmBERTo (encoder-based)
-Gemma, LLaMA (generative LLMs)
-Approach:
--Fine-tuning and prompt engineering
--Comparison between discriminative and generative methods
-Tech stack: Python, PyTorch, Hugging Face Transformers
+---
 
-###5. NLP – Cultural Text Classification
+## 🚦 Spatio-Temporal Forecasting — METR-LA
 
-Developed a text classification system to categorize items based on cultural context derived from textual descriptions.
+**Goal:** Predict traffic flow using spatial and temporal dependencies.
 
-Approach:
-Transformer-based embeddings
-Sentence-level processing and feature extraction
-Focus:
--Semantic understanding of cultural attributes
--Robust classification across diverse text inputs
-Tech stack: Python, Hugging Face, PyTorch
+- 🧩 Architecture:
+  - Informer (long-sequence time-series modeling)
+  - Bayesian Graph Attention Network (spatial + uncertainty modeling)
+- 📊 Dataset: METR-LA traffic dataset
+- 🎯 Contribution:
+  - Joint modeling of spatial-temporal dependencies
+  - Uncertainty-aware predictions
+- 🛠 Tech Stack: Python, PyTorch, Graph Neural Networks
 
-##🧠 Skills Demonstrated
--Deep Learning (CNNs, Transformers, GNNs)
--Natural Language Processing
--Reinforcement Learning
--Time Series Forecasting
--Prompt Engineering & LLMs
--PyTorch ecosystem
--Hugging Face Transformers & Datasets
--Model evaluation and experimentation design
+---
 
-##🛠️ Tech Stack
--Python
--PyTorch
--Hugging Face Transformers
--NumPy / Pandas
--Scikit-learn
--Matplotlib / visualization tools
+## 🧾 NLP — Sentence Splitting Models
 
-##📌 Notes
+**Goal:** Split and structure text into sentences using encoder and generative approaches.
 
-All projects were developed as part of academic coursework and personal exploration of modern AI architectures. Each project focuses on understanding model behavior, improving performance through experimentation, and applying AI to real-world-like problems.
+- 🧩 Models:
+  - BERT, UmBERTo (encoder-based)
+  - Gemma, LLaMA (LLM-based generative approach)
+- 🧠 Techniques:
+  - Prompt engineering
+  - Fine-tuning & comparison of architectures
+- 🎯 Focus: Robust sentence boundary detection across domains
+- 🛠 Tech Stack: Python, PyTorch, Hugging Face Transformers
+
+---
+
+## 🌍 NLP — Cultural Text Classification
+
+**Goal:** Classify items based on cultural context from textual descriptions.
+
+- 🧩 Approach: Transformer-based text representations
+- 🎯 Focus:
+  - Semantic understanding of cultural attributes
+  - Generalization across heterogeneous text inputs
+- 🛠 Tech Stack: Python, Hugging Face, PyTorch
+
+---
+
+## 🧰 Core Skills
+
+- Deep Learning (CNNs, Transformers, GNNs)
+- Natural Language Processing
+- Reinforcement Learning
+- Time Series Forecasting
+- Prompt Engineering & LLMs
+- Model Evaluation & Experimentation Design
+- PyTorch Ecosystem
+- Hugging Face Transformers & Datasets
+
+---
+
+## ⚙️ Tech Stack
+
+- Python
+- PyTorch
+- Hugging Face
+- NumPy / Pandas
+- Scikit-learn
+- Matplotlib
+
+---
+
+## 📌 Notes
+
+These projects were developed during my Master’s in Artificial Intelligence.  
+Each project focuses on applying modern AI architectures to real-world inspired problems, with emphasis on experimentation, evaluation, and model design.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out if you'd like to discuss any of these projects or collaborate.
