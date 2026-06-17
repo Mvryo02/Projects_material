@@ -1,0 +1,89 @@
+Machine Learning & AI Projects Portfolio
+
+This repository contains a collection of machine learning and deep learning projects developed during my Master's in Artificial Intelligence. The projects span multiple domains, including Computer Vision, Natural Language Processing, Reinforcement Learning, and Spatio-Temporal Forecasting, with a focus on building end-to-end models and applying modern architectures.
+
+🚀 Overview
+
+The goal of this portfolio is to demonstrate practical experience in:
+
+Deep learning model design and training (PyTorch)
+Transformer-based architectures (BERT, LLMs, Informer)
+Graph Neural Networks
+Computer Vision anomaly detection
+Reinforcement learning in continual settings
+NLP pipelines and text understanding tasks
+End-to-end experimentation and evaluation workflows
+📁 Projects
+1. Computer Vision – Anomaly Detection in Jet Engine Blades
+
+Developed an anomaly detection system for detecting defects in jet engine blades using deep learning-based reconstruction methods.
+
+Approach: Autoencoder-based anomaly detection
+Goal: Identify structural defects from visual patterns
+Key aspects:
+Feature learning without explicit labels
+Reconstruction error used as anomaly score
+Tech stack: Python, PyTorch, CNN-based architectures
+2. Continual Reinforcement Learning
+
+Implemented a reinforcement learning framework designed to handle continual learning scenarios where the agent must adapt to changing environments without catastrophic forgetting.
+
+Approach: RL with continual adaptation strategies
+Focus: Stability-plasticity trade-off
+Key aspects:
+Sequential task learning
+Performance retention across tasks
+Tech stack: Python, PyTorch, RL libraries
+3. Spatio-Temporal Traffic Forecasting (METR-LA)
+
+Developed a hybrid deep learning model for traffic prediction using both temporal and spatial dependencies.
+
+Approach:
+Informer for long-range time series forecasting
+Bayesian Graph Attention Network for spatial relationships and uncertainty modeling
+Dataset: METR-LA traffic dataset
+Key contributions:
+Joint modeling of spatial-temporal dependencies
+Uncertainty-aware predictions
+Tech stack: Python, PyTorch, Graph Neural Networks
+4. NLP – Sentence Splitting Models
+
+Built sentence splitting models using both encoder-based and generative approaches.
+
+Models used:
+BERT, UmBERTo (encoder-based)
+Gemma, LLaMA (generative LLMs)
+Approach:
+Fine-tuning and prompt engineering
+Comparison between discriminative and generative methods
+Tech stack: Python, PyTorch, Hugging Face Transformers
+5. NLP – Cultural Text Classification
+
+Developed a text classification system to categorize items based on cultural context derived from textual descriptions.
+
+Approach:
+Transformer-based embeddings
+Sentence-level processing and feature extraction
+Focus:
+Semantic understanding of cultural attributes
+Robust classification across diverse text inputs
+Tech stack: Python, Hugging Face, PyTorch
+🧠 Skills Demonstrated
+Deep Learning (CNNs, Transformers, GNNs)
+Natural Language Processing
+Reinforcement Learning
+Time Series Forecasting
+Prompt Engineering & LLMs
+PyTorch ecosystem
+Hugging Face Transformers & Datasets
+Model evaluation and experimentation design
+🛠️ Tech Stack
+Python
+PyTorch
+Hugging Face Transformers
+NumPy / Pandas
+Scikit-learn
+Matplotlib / visualization tools
+📌 Notes
+
+All projects were developed as part of academic coursework and personal exploration of modern AI architectures. Each project focuses on understanding model behavior, improving performance through experimentation, and applying AI to real-world-like problems.
